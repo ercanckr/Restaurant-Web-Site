@@ -48,6 +48,12 @@ section {
   padding: 3.5rem 7%;
 }
 
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
 a {
   color: var(--black-color);
   text-decoration: none;
@@ -152,11 +158,6 @@ a {
 
 /*! Home End */
 /*! Menu Start */
-.menu .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
 
 .menu .box-container .box {
   padding: 3rem;
@@ -196,12 +197,6 @@ a {
 
 /*! Home End */
 /*! Products Start */
-.products .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
 .products .box-container .box {
   text-align: center;
   background-color: white;
@@ -331,3 +326,38 @@ a {
 }
 
 /*! About End */
+/*! Review Start */
+.review .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.review .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem 0;
+
+}
+
+.review .box-container .box .user {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.review .box-container .box .stars i {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+/*! Review End */
