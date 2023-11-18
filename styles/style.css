@@ -89,6 +89,7 @@ a {
 }
 
 /*! Header Start */
+
 .header .logo img {
   height: 10rem;
 }
@@ -129,6 +130,7 @@ a {
 
 /*! Header End */
 /*! Home Start */
+
 .home {
   min-height: 100vh;
   background: url(../images/home.jpg) no-repeat;
@@ -197,6 +199,7 @@ a {
 
 /*! Home End */
 /*! Products Start */
+
 .products .box-container .box {
   text-align: center;
   background-color: white;
@@ -295,6 +298,7 @@ a {
 
 /*! Products End */
 /*! About Start */
+
 .about .row {
   display: flex;
   flex-wrap: wrap;
@@ -327,6 +331,7 @@ a {
 
 /*! About End */
 /*! Review Start */
+
 .review .box-container .box {
   border: var(--border);
   text-align: center;
@@ -362,6 +367,7 @@ a {
 
 /*! Review End */
 /*! Contact start */
+
 .contact .row {
   display: flex;
   background-color: var(--black-color);
@@ -416,5 +422,51 @@ a {
   font-weight: bold;
 }
 
-
 /*! contact End */
+/*! Blog Start */
+.blogs .box-container .box {
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+.blogs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.blogs .box-container .box .image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+
+.blogs .box-container .box .content .title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.blogs .box-container .box .content span {
+  display: block;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #ccc;
+  padding: 1rem 0;
+}
+
+/*! Blog End */
