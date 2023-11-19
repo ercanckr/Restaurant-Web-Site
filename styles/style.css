@@ -687,6 +687,10 @@ a {
     right: -100%;
   }
 
+  .header .navbar.active {
+    right: 3rem;
+  }
+
   .header .navbar a {
     color: var(--black-color);
     display: block;
@@ -695,6 +699,16 @@ a {
     font-size: 2rem;
   }
 
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header #menu-btn {
+    display: inline-block;
+  }
 }
 
 /*! Responsive End */
