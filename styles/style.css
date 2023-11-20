@@ -168,7 +168,7 @@ a {
   position: absolute;
   top: 95%;
   height: calc(100vh - 9rem);
-  width: 35rem;
+  width: 30rem;
   background-color: #fff;
   box-shadow: 0px 20px 14px 0px rgba(0, 0, 0, 0.75);
   right: -100%;
@@ -702,6 +702,12 @@ a {
     font-size: 2rem;
   }
 
+  /*! Responsive End. */
+
+  .header .search-form {
+    width: 30rem;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -712,6 +718,11 @@ a {
   .header #menu-btn {
     display: inline-block;
   }
+
+  .header .search-form {
+    width: 30rem;
+  }
+
 }
 
 /*! Responsive End. */
